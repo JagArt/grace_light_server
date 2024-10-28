@@ -3,5 +3,5 @@ RUN mkdir /app
 COPY ./app
 WORKDIR /app
 RUN gradlew shadowJar
-COPY --from=build /build/libs/by.arro.grace-light-server-all.jar /app.jar
+COPY /build/libs/by.arro.grace-light-server-all.jar /app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
