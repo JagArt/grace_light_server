@@ -34,6 +34,7 @@ dependencies {
 
     implementation("io.ktor:ktor-server-status-pages:$ktor_version")
     implementation("io.ktor:ktor-server-cors:$ktor_version")
+    implementation("io.ktor:ktor-server-call-logging:$ktor_version")
 }
 
 tasks {
