@@ -1,10 +1,11 @@
 package example.com
 
-import example.com.plugins.*
+import configureLogging
+import example.com.plugins.configureCors
+import example.com.plugins.configureRouting
+import example.com.plugins.configureSecurity
+import example.com.plugins.configureSerialization
 import io.ktor.server.application.*
-import io.ktor.server.plugins.calllogging.*
-import io.ktor.server.request.*
-import org.slf4j.event.Level
 
 fun main(args: Array<String>) {
     io.ktor.server.netty.EngineMain.main(args)
