@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ApplicationKt" type="JetRunConfigurationType" nameIsGenerated="true">
+    <envs>
+      <env name="PORT" value="8080" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="example.com.ApplicationKt" />
+    <module name="by.arro.grace-light-server.main" />
+    <shortenClasspath name="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
