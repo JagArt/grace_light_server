@@ -1,10 +1,7 @@
 package example.com
 
 import configureLogging
-import example.com.plugins.configureCors
-import example.com.plugins.configureRouting
-import example.com.plugins.configureSecurity
-import example.com.plugins.configureSerialization
+import example.com.plugins.*
 import io.ktor.server.application.*
 
 fun main(args: Array<String>) {
@@ -14,8 +11,9 @@ fun main(args: Array<String>) {
 fun Application.module() {
     configureSerialization()
     configureSecurity()
-    configureRouting()
+    configureSockets()
     configureCors()
     configureLogging()
+    configureRouting()
 }
 
