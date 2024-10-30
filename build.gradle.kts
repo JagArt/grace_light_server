@@ -44,3 +44,11 @@ dependencies {
 tasks {
     create("stage").dependsOn("installDist")
 }
+
+ktor {
+    docker {
+        jreVersion.set(JavaVersion.VERSION_21)
+        localImageName.set("grace-light-server")
+        imageTag.set(version.toString())
+    }
+}
