@@ -26,6 +26,8 @@ ktor-server-core-jvm = { module = "io.ktor:ktor-server-core-jvm" }
 
 ktor-server-content-negotiation-jvm = { module = "io.ktor:ktor-server-content-negotiation-jvm" }
 
+ktor-client-content-negotiation-jvm = { module = "io.ktor:ktor-client-content-negotiation-jvm" }
+
 ktor-server-auth-jvm = { module = "io.ktor:ktor-server-auth-jvm" }
 
 ktor-server-netty-jvm = { module = "io.ktor:ktor-server-netty-jvm" }
