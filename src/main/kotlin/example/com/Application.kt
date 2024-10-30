@@ -14,6 +14,7 @@ fun Application.module() {
     configureSockets()
     configureCors()
     configureLogging()
+    configureDatabases()
     configureRouting()
 }
 

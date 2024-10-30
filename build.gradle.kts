@@ -34,6 +34,10 @@ dependencies {
     implementation(Ktor.server.callLogging)
     implementation(Ktor.plugins.serialization.kotlinx.json)
     implementation(Ktor.server.websockets)
+    implementation(JetBrains.exposed.core)
+    implementation(JetBrains.exposed.dao)
+    implementation(JetBrains.exposed.jdbc)
+    implementation(libs.h2)
 }
 
 tasks {
